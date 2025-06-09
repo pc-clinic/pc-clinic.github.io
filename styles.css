@@ -1,48 +1,46 @@
 body{
-    background-color: black;
+    background-color: rgb(131, 131, 131);
     padding-top: 0px;
     padding-bottom: 0px;
     margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .topNavBar{
-    background-color: rgb(26, 25, 25);
-    height: 75px;
+    background-color: rgb(0,193,232);
+    height: 10vh;
+}
+
+.white{
+    color: white;
 }
 
 .navBarContainer{
     position: absolute;
     display:flex;
-    height: 75px;
+    height: 10vh;
     top:0%;
-    width:27%;
+    width:25vw;
     right:0%;
 }
 
 .navBarButton{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    height: 100%;
+    font-size: 3vh;
+    height: 10vh;
     width: 100%;
     transition: 0.2s;
 }
 
 .navBarButton:hover{
-    background-color: rgb(41, 40, 40);
+    background-color: rgb(125, 125, 125);
     cursor: pointer;
 }
 
-.navBarButtonWIP{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    height: 100%;
-    width: 100%;
-    transition: 0.2s;
-}
-
-.navBarButtonWIP:hover{
-    background-color: rgb(54, 2, 2);
-    cursor:not-allowed;
+.navBarText{
+    position: absolute;
+    color: white;
+    padding-top: 2vh;
+    padding-left: 2vh;
 }
 
 .navBarButtonText{
@@ -50,8 +48,9 @@ body{
     top: 40%;
     bottom: 40%;
     text-align: center;
-    line-height: 75px;
+    line-height: 10vh;
 }
+
 
 .breakXS{
     height: 10px;
@@ -67,10 +66,9 @@ body{
 }
 
 .mainBody{
-    background-color: rgb(26, 25, 25);
-    border: 1px rgb(97, 96, 96) solid;
+    background-color: rgb(101, 101, 101);
+    border: 1px rgb(0,193,232) solid;
     border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
     width: 73%;
     margin-left: auto;
     margin-right: auto;
@@ -80,129 +78,13 @@ body{
     color: white;
 }
 
-.contactFormInputShort{
-    background-color: rgb(44, 43, 43);
-    border: 1px rgb(97, 96, 96) solid;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    width: 58%;
-    padding-left: 1%;
-    padding-top: 0.25%;
-    padding-bottom: 0.25%;
-    padding-right: 1%;
-    text-align: center;
-    transition: 0.25s;
-}
-
-.contactFormInputShort:invalid{
-    background-color: rgb(49, 35, 35);
-    border: 1px rgb(97, 96, 96) solid;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    width: 58%;
-    padding-left: 1%;
-    padding-top: 0.25%;
-    padding-bottom: 0.25%;
-    padding-right: 1%;
-    text-align: center;
-}
-
-.contactFormInputLong{
-    background-color: rgb(46, 38, 38);
-    border: 1px rgb(97, 96, 96) solid;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    width: 58%;
-    min-width: 58%;
-    max-width: 58%;
-    min-height: 100px;
-    max-height: 250px;
-    height: 100px;
-    padding-left: 1%;
-    padding-top: 0.25%;
-    padding-bottom: 0.25%;
-    padding-right: 1%;
-    text-align: center;
-    transition: 0.25s;
-}
-
-.contactFormInputLong:invalid{
-    background-color: rgb(49, 35, 35);
-    border: 1px rgb(97, 96, 96) solid;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    width: 58%;
-    min-width: 58%;
-    max-width: 58%;
-    min-height: 100px;
-    max-height: 250px;
-    height: 100px;
-    padding-left: 1%;
-    padding-top: 0.25%;
-    padding-bottom: 0.25%;
-    padding-right: 1%;
-    text-align: center;
-}
-
-.contactFormSubmit{
-    background-color: rgb(44, 43, 43);
-    border: 1px rgb(97, 96, 96) solid;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    width: 13%;
-    padding-left: 1%;
-    padding-top: 0.25%;
-    padding-bottom: 0.25%;
-    padding-right: 1%;
-    text-align: center;
-    transition: 0.25s;
-}
-
-.contactFormSubmit:hover{
-    background-color: rgb(61, 58, 58);
-    border: 1px rgb(97, 96, 96) solid;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    width: 13%;
-    padding-left: 1%;
-    padding-top: 0.25%;
-    padding-bottom: 0.25%;
-    padding-right: 1%;
-    text-align: center;
-}
-
 .infoBox{
     position: absolute;
     width: 32%;
     height: 90%;
     right: 0%;
     color:white;
-    font-family: 'Courier New', Courier, monospace;
 }
-
-table {
-    position:absolute;
-    border-collapse: collapse;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    letter-spacing: px;
-    height:75px;
-    width: 32%;
-    right: 0px;
-    top: 0%;
-    color:white;
-  }
-
-th{
-    width: 200px;
-    transition: all 0.5s;
-}
-
-th:hover{
-    background-color: rgb(80, 80, 80);
-    cursor: pointer;
-}
-
 .topbarimage{
     width: 75px;
     height: 75px;
@@ -218,7 +100,6 @@ th:hover{
     left:90px;
     color:white;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
 }
 .topbar2{
     position: absolute;
@@ -226,34 +107,24 @@ th:hover{
     left:90px;
     color:white;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
-.hiddenBox{
-    position: absolute;
-    right: 0%;
-    bottom: 0%;
-    background-color: rgba(255, 255, 255, 0);
-    width: 25%;
-    height: 5%;
+table{
+    margin-left: auto;
+    margin-right: auto;
+    /* border-spacing: 5vw;; */
 }
+
+td{
+    padding:2%;
+}
+
 footer{
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0,193,232);
+    padding-top:5vh;
+    padding-bottom: 5vh;
+    margin-top: 10vh;
+    color: white;
     width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
     text-align: center;
-    position: absolute;
-    bottom:0%;
-    color:rgba(255, 255, 255, 0.2);
-    background-color: rgb(26, 25, 25);
-}
-
-.footerselection{
-    color:rgba(255, 255, 255, 0.2);
-    transition: 0.2s;
-}
-
-.footerselection:hover{
-    color:rgba(255, 255, 255, 0.5);
 }
