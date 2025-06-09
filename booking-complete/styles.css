@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(131, 131, 131);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topNavBar{
+    background-color: rgb(0,193,232);
+    height: 10vh;
+}
+
+.white{
+    color: white;
+}
+
+.navBarContainer{
+    position: absolute;
+    display:flex;
+    height: 10vh;
+    top:0%;
+    width:25vw;
+    right:0%;
+}
+
+.navBarButton{
+    font-size: 3vh;
+    height: 10vh;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.navBarButton:hover{
+    background-color: rgb(125, 125, 125);
+    cursor: pointer;
+}
+
+.navBarText{
+    position: absolute;
+    color: white;
+    line-height: 3vh;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 2vh;
+}
+
+.navBarButtonText{
+    color: white;
+    top: 40%;
+    bottom: 40%;
+    text-align: center;
+    line-height: 10vh;
+}
+
+
+.breakXS{
+    height: 10px;
+}
+.breakS{
+    height: 25px;
+}
+.breakM{
+    height: 50px;
+}
+.breakL{
+    height: 100px;
+}
+
+.mainBody{
+    background-color: rgb(101, 101, 101);
+    border: 1px rgb(0,193,232) solid;
+    border-radius: 10px;
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.contactFormInputShort{
+    background-color: rgb(122, 122, 122);
+    border: 2px rgb(0,193,232) solid;
+    width: 50vw;
+    text-align: center;
+    color: white;
+}
+
+.infoBox{
+    position: absolute;
+    width: 32%;
+    height: 90%;
+    right: 0%;
+    color:white;
+}
+.topbarimage{
+    width: 75px;
+    height: 75px;
+}
+
+.topbarimage:hover{
+    cursor: pointer;
+}
+
+.topbar1{
+    position: absolute;
+    top:1%;
+    left:90px;
+    color:white;
+    font-size: 30px;
+}
+.topbar2{
+    position: absolute;
+    top:4.5%;
+    left:90px;
+    color:white;
+    font-size: 20px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    /* border-spacing: 5vw;; */
+}
+
+td{
+    padding:2%;
+}
+
+footer{
+    background-color: rgb(0,193,232);
+    padding-top:5vh;
+    padding-bottom: 5vh;
+    margin-top: 10vh;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
